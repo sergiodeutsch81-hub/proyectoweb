@@ -1,0 +1,125 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+html { 
+    
+    scroll-behavior: smooth;
+
+}
+
+body { 
+    
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    
+
+}
+
+nav {
+
+    background-color: #000000;
+    padding: 20px;
+    position:sticky;
+    top: 0;
+    text-align:right;
+}
+
+nav a {
+
+    color:rgb(249, 231, 231);
+    margin-right: 20px;
+    text-decoration:none;
+    
+    
+}
+
+section {
+
+    min-height: 100vh;
+    padding: 40px;
+    
+}
+
+#inicio {
+    background-image: url(../img/egipto_portada.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-shadow: 3px 3px 10px #f29696;
+   
+    
+}
+
+
+#servicios { 
+    background-color: #6b9dbb;
+
+}
+
+#destacados {
+    background-color: rgb(182, 109, 180);
+}
+
+#contacto {
+    background-color: #cb9a9a;
+}
+
+
+.btn-tel,
+.btn-whatsapp {
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10 px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: var(--color-texto-claro);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba (0,0,0,0.15);
+
+}
+
+.btn-tel{
+    background-color: rgb(133, 133, 223);
+}
+
+
+.btn-whatsapp {
+
+    background-color:rgb(47, 255, 144);
+}
+
+
+.btn-tel i,
+.btn-whatsapp i{
+
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Raleway'; 
+
+}
+ 
+.colorTitulo {
+    background-color: #a9adb0;
+    font-size: 1.3em;
+    
+}
+
+.colorLogo {
+    background-color: #a9adb0;
+    
+}
+

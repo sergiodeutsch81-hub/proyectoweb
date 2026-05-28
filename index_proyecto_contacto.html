@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/styles_proyecto.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <title> pagina contacto</title>
+   
+</head>
+
+<body>
+
+    
+     <section class="contacto_rapido">
+        <h2> contacto rápido</h2>
+
+        <br><br>
+
+        <a href="tel:+34555666777" class="btn-tel">
+        <i class="fa-solid fa-phone"></i>Llámanos ahora </a>
+
+        <a href="https://api.whatsapp.com/send?phone=+345556667777&text=quiero%20m%C3%A1s%20informaci%C3%B3n" class="btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>Escríbenos por whatsapp  </a>
+    
+        <br><br><br><br><br>
+
+        <h2>Formulario</h2>
+        <br><br>
+
+        <form>
+
+            <label for="opccion">Opcción</label>
+            <select id="opccion" name="opccion" required>
+                <option value="">--Elegir--</option>
+                <option value="1">viaje organizado</option>
+                <option value="2">Pack 1</option>
+                <option value="3">Pack 2</option>
+                <option value="4">Personalizado</option>
+            </select><br><br>
+
+            <label for="fecha"> Fecha inicio del viaje</label>
+            <input type="date" id="fecha" name="fecha"
+            value="2000-05-15" min="1900-01-01" max="2025-12-31" required>
+
+            <label for="fecha"> Fecha fin del viaje</label>
+            <input type="date" id="fecha" name="fecha"
+            value="2000-05-15" min="1900-01-01" max="2025-12-31" required> <br><br><br>
+
+            <label for="mensaje">Mensaje</label>
+                   
+            <textarea class="cuadroTexto" id="mensaje" name="mensaje"
+            rows="4" cols="50"
+            placeholder="Escribe tu mensaje aquí..."></textarea>
+
+            <br><br>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+         
+            <br><br><br>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="reset" class="btn btn-secondary">limpiar</button>
+
+        </form>
+
+    </section>
+
+    
+</body>
+</html>
